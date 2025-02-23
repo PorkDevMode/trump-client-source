@@ -368,7 +368,7 @@ local function enableGodMode(bool)
     local humanoid = char:FindFirstChild("Humanoid")
     local gear = humanoid:FindFirstChild("Gear")
     if char and humanoid.Health > 0 and gear then
-        local GodMode = char:FindFirstChild("Humanoid"):FindFirstChild("God")
+        local GodMode = char:FindFirstChild("Humanoid"):FindFirstChild("Invincible")
 
         if GodMode then
             GodMode.Value = bool
